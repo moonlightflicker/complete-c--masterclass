@@ -6,6 +6,10 @@ Console.Write("Enter a whole number: ");
 //string userInput = Console.ReadLine();
 
 // Parsing
-int userInput = int.Parse(Console.ReadLine());
+int userInput1 = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Value entered: " + userInput);
+Console.Write("Enter a whole number: ");
+
+int userInput2 = int.Parse(Console.ReadLine());
+
+Console.WriteLine($"{userInput1} + {userInput2} = {userInput1 + userInput2}");
