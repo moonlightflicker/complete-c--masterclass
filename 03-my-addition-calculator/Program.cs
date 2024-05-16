@@ -23,7 +23,9 @@ userInput2 = double.Parse(Console.ReadLine(),  CultureInfo.InvariantCulture);
 
 //int userInput2 = int.Parse(Console.ReadLine());
 
-double sum = userInput1 + userInput2;
+double sum = Math.Round(userInput1 + userInput2, 3);
 
 //Console.WriteLine($"{userInput1} + {userInput2} = {userInput1 + userInput2}");
-Console.WriteLine($"{userInput1} + {userInput2} = {sum}");
+Console.WriteLine($"{userInput1.ToString(CultureInfo.InvariantCulture)} + " +
+                  $"{userInput2.ToString(CultureInfo.InvariantCulture)} = " +
+                  $"{sum.ToString(CultureInfo.InvariantCulture)}");
