@@ -2,6 +2,7 @@
 
 Console.Write("Enter something: ");
 
-string userValue = Console.ReadLine();
+// We can't use an int because Console.ReadLine() returns a string
+string userInput = Console.ReadLine();
 
-Console.WriteLine("Value entered: " + userValue);
+Console.WriteLine("Value entered: " + userInput);
