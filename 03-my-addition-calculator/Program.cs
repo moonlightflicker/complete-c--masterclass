@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 //Console.Write("Enter a whole number: ");
+
+using System.Globalization;
+
 Console.Write("Enter a number: ");
 
 // We can't use an int because Console.ReadLine() returns a string
@@ -11,12 +14,12 @@ double userInput1 = 0.0;
 double userInput2 = 0.0;
 //int userInput1 = int.Parse(Console.ReadLine());
 
-userInput1 = double.Parse(Console.ReadLine());
+userInput1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 //Console.Write("Enter a whole number: ");
 Console.Write("Enter a number: ");
 
-userInput2 = double.Parse(Console.ReadLine());
+userInput2 = double.Parse(Console.ReadLine(),  CultureInfo.InvariantCulture);
 
 //int userInput2 = int.Parse(Console.ReadLine());
 
