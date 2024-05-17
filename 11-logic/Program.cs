@@ -34,10 +34,14 @@ class Program
         // Relational operator
         bool isGreater = num1 > num2;
 
-        int age = 35;
+        int age = 16;
         if (age >= 18)
         {
             Console.WriteLine("Party Time!");
+        }
+        else
+        {
+            Console.WriteLine("Go to school");
         }
     }
 }
