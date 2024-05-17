@@ -19,5 +19,12 @@ class Program
 
         var sum = myFavouriteNumber + yourFavouriteNumber;
         Console.WriteLine(sum);
+
+
+
+        char myFavouriteChar = 'Z';
+        Console.WriteLine(myFavouriteChar);
+        myFavouriteChar = '\u2665';
+        Console.WriteLine(myFavouriteChar);
     }
 }
