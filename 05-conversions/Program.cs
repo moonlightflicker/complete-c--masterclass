@@ -40,5 +40,18 @@ class Program
         double myDouble3 = 13.5;
         myInt3 = (int)myDouble3;
         Console.WriteLine(myInt3);
+        
+        
+        
+        
+        // Conversion helpers parse and convert
+        string numberString = "123";
+        int result = int.Parse(numberString);
+
+        Console.WriteLine(numberString);
+
+        string myBoolString = "true";
+        bool myBool = Convert.ToBoolean(myBoolString);
+        Console.WriteLine("My bool is " + myBool);
     }
 }
