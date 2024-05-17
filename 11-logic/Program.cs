@@ -6,10 +6,21 @@ class Program
     {
         bool isRainy = false;
         bool hasUmbrella = true;
+        
+        // OPERATORS
+        // AND &&
+        // OR ||
+        // NOT !
 
-        if (isRainy)
+        if (isRainy && hasUmbrella)
         {
-            Console.WriteLine("It's rainy");
+            Console.WriteLine("It's rainy, but I have and umbrella");
+        }
+        
+        
+        if (!isRainy || hasUmbrella)
+        {
+            Console.WriteLine("I'm not getting wet");
         }
 
         Console.WriteLine("The program ran");
